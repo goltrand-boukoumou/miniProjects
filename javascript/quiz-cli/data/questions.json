@@ -1,0 +1,57 @@
+{
+  "questions": [
+    {
+      "question": "Quel mot-clé déclare une variable au portée de bloc ?",
+      "options": ["var", "let", "function", "global"],
+      "answer": 1,
+      "explanation": "let et const sont limitées au bloc environnant, contrairement à var (portée de fonction)."
+    },
+    {
+      "question": "Que renvoie typeof null ?",
+      "options": ["\"null\"", "\"undefined\"", "\"object\"", "\"boolean\""],
+      "answer": 2,
+      "explanation": "C'est un bug historique de JavaScript, conservé pour la rétrocompatibilité."
+    },
+    {
+      "question": "Quelle méthode convertit une chaîne JSON en objet JS ?",
+      "options": ["JSON.stringify()", "JSON.parse()", "Object.fromEntries()", "eval()"],
+      "answer": 1,
+      "explanation": "JSON.parse() désérialise ; eval() est dangereux et déconseillé."
+    },
+    {
+      "question": "Qu'est-ce qu'une Promise ?",
+      "options": [
+        "Un objet représentant l'état futur d'une opération asynchrone",
+        "Une garantie que le code ne lèvera jamais d'erreur",
+        "Un type de boucle for",
+        "Une fonction synchrone bloquante"
+      ],
+      "answer": 0,
+      "explanation": "Une Promise passe de pending à fulfilled ou rejected."
+    },
+    {
+      "question": "Lequel N'EST PAS une méthode de tableau ?",
+      "options": ["map()", "reduce()", "filter()", "pushBack()"],
+      "answer": 3,
+      "explanation": "pushBack() n'existe pas ; on utilise push()."
+    },
+    {
+      "question": "Comment s'appelle la comparaison stricte (sans coercition) ?",
+      "options": ["==", "===", "!=", "="],
+      "answer": 1,
+      "explanation": "=== compare la valeur ET le type ; '1' == 1 est true mais '1' === 1 est false."
+    },
+    {
+      "question": "En ESM (import/export), quel fichier sert de point d'entrée si package.json indique \"type\": \"module\" ?",
+      "options": ["index.cjs", "src/index.js avec import/export", "index.ts", "main.php"],
+      "answer": 1,
+      "explanation": "Avec \"type\": \"module\", les .js sont traités comme des modules ES."
+    },
+    {
+      "question": "Quelle API Node permet de lire un fichier de façon asynchrone ?",
+      "options": ["fs.readFileSync", "fs.promises.readFile", "http.get", "process.nextTick"],
+      "answer": 1,
+      "explanation": "fs/promises expose des versions Promise de toutes les fonctions fs."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "a1b2c3d4",
+    "title": "Mon GitHub",
+    "url": "https://github.com/octocat",
+    "createdAt": "2026-10-01T09:00:00.000Z"
+  },
+  {
+    "id": "e5f6g7h8",
+    "title": "Mon blog",
+    "url": "https://example.com/blog",
+    "createdAt": "2026-10-02T12:30:00.000Z"
+  }
+]
